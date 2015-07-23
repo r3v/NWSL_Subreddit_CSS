@@ -1,0 +1,658 @@
+/*Site colors: Dark-0C162B, Regular-192C57, Light-3258AE, Very Light-64B0FF, Red-D12028*/
+/*Subscribers Rename*/
+div.titlebox span.word, div.leavemoderator, .flairtoggle {
+    display: none
+    }
+div.titlebox span.number {
+    font-size: 16px;
+    text-align: left;
+    float: left;
+    position: relative;
+    top: 5px
+    }
+div.titlebox span.number:before {
+    content: "                        "
+    }
+div.titlebox span.number:after {
+    content: " fans"
+    }
+/*Users Online*/
+.titlebox .users-online {
+    display: inline
+    }
+.titlebox .users-online::before {
+    display: none
+    }
+.titlebox .users-online .number {
+    color: #192C57
+    }
+.titlebox .users-online .number:before {
+    content: ", ";
+    color: #000000
+    }
+.titlebox .users-online .number:after {
+    content: " online";
+    color: #192C57
+    }
+/*Background*/
+body {
+    background: #FFFFFF url(%%nwsl-500px-faded%%) no-repeat fixed 50% 95%
+    }
+body ul.flat-list {
+    color: #192C57
+    }
+/*Announcements - Deactivated
+
+body > .content > .sharelink ~ .sitetable:before {
+    content: "*Wigan Athletic*: 2013 FA Cup Champions";
+    background: #64B0FF url(%%info%%) no-repeat left center;
+    border: 1px solid #192C57;
+    font: normal 18px Calibri, Arial, sans-serif;
+    color: #192C57;
+    text-align: left;
+    padding: 7px 15px 7px 34px;
+    margin: -5px 10px 10px 10px;
+    display: block;
+    width: 65%;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    }*/
+
+/*Top Bar*/
+#sr-header-area a {
+    background-color: #FFFFFF;
+    background: linear-gradient(#FFFFFF,#EEEEEE);
+    background: -moz-linear-gradient(#FFFFFF,#EEEEEE);
+    background: -ms-linear-gradient(#FFFFFF,#EEEEEE);
+    background: -webkit-linear-gradient(#FFFFFF,#EEEEEE);
+    background: -o-linear-gradient(#FFFFFF,#EEEEEE);
+    color: #192C57 !important;
+    font-size: 100% !important
+    }
+#sr-header-area {
+    background-color: #FFFFFF;
+    background: linear-gradient(#FFFFFF,#EEEEEE);
+    background: -moz-linear-gradient(#FFFFFF,#EEEEEE);
+    background: -ms-linear-gradient(#FFFFFF,#EEEEEE);
+    background: -webkit-linear-gradient(#FFFFFF,#EEEEEE);
+    background: -o-linear-gradient(#FFFFFF,#EEEEEE);
+    border-bottom-color: #000000;
+    border-bottom-style: solid;
+    border-bottom-width: 1px
+    }
+#srLeftContainer, #RESStaticShortcuts, #RESShortcuts, #srDropdown, #srDropdownContainer {
+    background-color: #FFFFFF;
+    background: linear-gradient(#FFFFFF,#EEEEEE);
+    background: -moz-linear-gradient(#FFFFFF,#EEEEEE);
+    background: -ms-linear-gradient(#FFFFFF,#EEEEEE);
+    background: -webkit-linear-gradient(#FFFFFF,#EEEEEE);
+    background: -o-linear-gradient(#FFFFFF,#EEEEEE)
+    }
+#RESShortcuts .separator {
+    background-color: #FFFFFF;
+    background: linear-gradient(#FFFFFF,#EEEEEE);
+    background: -moz-linear-gradient(#FFFFFF,#EEEEEE);
+    background: -ms-linear-gradient(#FFFFFF,#EEEEEE);
+    background: -webkit-linear-gradient(#FFFFFF,#EEEEEE);
+    background: -o-linear-gradient(#FFFFFF,#EEEEEE);
+    color: #192C57
+    }
+#RESStaticShortcuts .separator {
+    background-color: #FFFFFF;
+    background: linear-gradient(#FFFFFF,#EEEEEE);
+    background: -moz-linear-gradient(#FFFFFF,#EEEEEE);
+    background: -ms-linear-gradient(#FFFFFF,#EEEEEE);
+    background: -webkit-linear-gradient(#FFFFFF,#EEEEEE);
+    background: -o-linear-gradient(#FFFFFF,#EEEEEE);
+    color: #192C57
+    }
+/*Header*/
+img#header-img {
+    margin: 13px 0 0 1px;
+    position: absolute;
+    z-index: 2;
+    max-height: 160px;
+    max-width: 280px;
+    border: 1px solid #000000
+    }
+#header {
+    background-color: #192C57;
+    background: linear-gradient(#3258AE,#192C57) !important;
+    background: -moz-linear-gradient(#3258AE,#192C57) !important;
+    background: -ms-linear-gradient(#3258AE,#192C57) !important;
+    background: -webkit-linear-gradient(#3258AE,#192C57) !important;
+    background: -o-linear-gradient(#3258AE,#192C57) !important;
+    border-bottom: 1px solid #000000;
+    position: relative;
+    z-index: 0;
+    height: 205px
+    }
+.pagename a {
+    display: block;
+    text-indent: -9999px;
+    background: url(%%nwslheader%%) no-repeat;
+    margin: 0px auto 16px 320px;
+    width: 600px;
+    height: 160px
+    }
+/*Userbar*/
+#header-bottom-right {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    color: #FFFFFF;
+    background-color: #192C57
+    }
+#header-bottom-right a {
+    color: #FFFFFF
+    }
+.user {
+    color: #FFFFFF
+    }
+/*Tab Menu*/
+.tabmenu {
+    position: absolute;
+    top: 203px;
+    left: 0;
+    margin-left: 55px
+    }
+.tabmenu li a {
+    color: #FFFFFF;
+    background-color: #192C57
+    }
+.tabmenu li.selected a, .tabmenu li a:hover {
+    color: #D12028;
+    background-color: #FFFFFF
+    }
+.tabmenu li.selected a:hover {
+    color: #D12028;
+    background-color: #FFFFFF
+    }
+.tabmenu li a, .tabmenu li.selected a {
+    border-bottom-right-radius: 4px;
+    -moz-border-radius-bottomright: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    border: 1px solid #000000;
+    border-top: 1px solid #000000;
+    z-index: 100
+    }
+/*Sidebar*/
+#search input[name="q"] {
+    border: 3px solid #192C57;
+    border-bottom-left-radius: 8px;
+    -moz-border-radius-bottomleft: 8px;
+    -webkit-border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    -moz-border-radius-topleft: 8px;
+    -webkit-border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    -moz-border-radius-bottomright: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    -moz-border-radius-topright: 8px;
+    -webkit-border-top-right-radius: 8px;
+    color: #3258AE;
+    font-size: 14px;
+    padding: 4px;
+    width: 286px
+    }
+#search input[name="q"]:hover, #search input[name="q"]:focus {
+    color: #192C57
+    }
+div.titlebox {
+    display: block
+    }
+div.titlebox h1 {
+    display: none
+    }
+div.titlebox h3 {
+    font: bold 18px Calibri, Arial, sans-serif;
+    text-align: center;
+    color: #192C57;
+    /*Taking away the text shadow for now
+        text-shadow: 1px 1px #0C162B;*/
+    }
+div.titlebox h4 {
+    font: bold 36px Calibri, Arial, sans-serif;
+    text-align: center;
+    color: #192C57;
+    text-shadow: 1px 1px #0C162B
+    }
+div.titlebox h5 {
+    font: bold 18px Calibri, Arial, sans-serif;
+    text-align: center
+    }
+div.titlebox h5 a {
+    font: bold 18px Calibri, Arial, sans-serif;
+    text-align: center !important;
+    color: #FF0000 !important
+    }
+div.styleToggle {
+    font: normal 12px Calibri, Arial, sans-serif;
+    text-align: center;
+    padding: 8px
+    }
+.fancy-toggle-button .remove, .fancy-toggle-button .add {
+    padding: 3px 12px 3px 12px;
+    background: linear-gradient(#D12028,#FF0000);
+    background: -moz-linear-gradient(#D12028,#FF0000);
+    background: -ms-linear-gradient(#D12028,#FF0000);
+    background: -webkit-linear-gradient(#D12028,#FF0000);
+    background: -o-linear-gradient(#D12028,#FF0000);
+    border: 1px 1px 1px 1px;
+    border-color: #192C57;
+    color: #FFFFFF;
+    font: normal 14px Calibri, Verdana, Arial, sans-serif
+    }
+.RESshortcut, .RESDashboardToggle {
+    padding: 3px 11px 3px 11px !important;
+    background: linear-gradient(#3258AE,#192C57) !important;
+    background: -moz-linear-gradient(#3258AE,#192C57) !important;
+    background: -ms-linear-gradient(#3258AE,#192C57) !important;
+    background: -webkit-linear-gradient(#3258AE,#192C57) !important;
+    background: -o-linear-gradient(#3258AE,#192C57) !important;
+    border: none !important;
+    color: #FFFFFF !important;
+    font: normal 14px Calibri, Verdana, Arial, sans-serif !important
+    }
+div.tagline {
+    color: #000000;
+    text-align: right;
+    font-size: 16px
+    }
+div.tagline:before {
+    content: "Hello, "
+    }
+.titlebox {
+    font: normal 14px Calibri, Verdana, Arial, sans-serif;
+    border: 3px solid #192C57;
+    padding: 4px;
+    border-top-left-radius: 8px;
+    -moz-border-radius-topleft: 8px;
+    -webkit-border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    -moz-border-radius-bottomleft: 8px;
+    -webkit-border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+    -moz-border-radius-topright: 8px;
+    -webkit-border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    -moz-border-radius-bottomright: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+    background-image: url(%%nwslalienlogo%%);
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding-top: 260px !important;
+    background-color: #64B0FF
+    }
+.titlebox a {
+    color: #192C57
+    }
+.titlebox a:hover {
+    color: #EE44EE;
+    }
+.titlebox .md {
+    font-size: 14px;
+    text-align: left;
+    float: left;
+    position: relative;
+    top: 5px
+    }
+.titlebox .md table td {
+    background-color: #FFFFFF;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    color: #192C57;
+    padding: 2px 10px;
+    text-align: center
+    }
+.titlebox .md table {
+    text-align: center
+    }
+.titlebox .md table th {
+    background-color: #192C57;
+    border-top: 1px solid #192C57;
+    border-left: 1px solid #192C57;
+    border-bottom: 1px solid #192C57;
+    border-right: 1px solid #192C57;
+    color: #FFFFFF;
+    padding: 0px;
+    text-align: center
+    }
+.titlebox .md table td a:hover {
+    color: #D12028;
+    }
+.titlebox .md table strong {
+    font-size: 13px !important;
+    padding: 0px;
+    text-align: center
+    }
+.titlebox .md table sup {
+    font-size: 100% !important;
+    padding: 0px;
+    color: #000000
+    }
+.titlebox .bottom {
+    color: #000000;
+    font: normal 14px Calibri, Verdana, Arial, sans-serif;
+    text-align: left;
+    float: left;
+    position: relative;
+    top: 4px
+    }
+div.titlebox span.age:before {
+    content: "r/nwsl: ";
+    text-align: left
+    }
+
+/*Logos for sidebar links*/
+
+a[href="http://www.bostonbreakerssoccer.com/#redditrnwsl"] {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    vertical-align: text-bottom;
+    content: "";
+    background: url(%%breakers40%%) no-repeat 0 0;
+    }
+a[href="http://chicagoredstars.com/#redditrnwsl"] {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    vertical-align: text-bottom;
+    content: "";
+    background: url(%%redstars40%%) no-repeat 0 0;
+    }
+a[href="http://www.fckansascity.com/#redditrnwsl"] {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    vertical-align: text-bottom;
+    content: "";
+    background: url(%%fckc40%%) no-repeat 0 0;
+    }
+a[href="http://www.portlandtimbers.com/thornsfc/#redditrnwsl"] {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    vertical-align: text-bottom;
+    content: "";
+    background: url(%%thorns40%%) no-repeat 0 0;
+    }
+a[href="http://www.skybluefc.com/#redditrnwsl"] {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    vertical-align: text-bottom;
+    content: "";
+    background: url(%%skyblue40%%) no-repeat 0 0;
+    }
+a[href="http://www.reignfc.com/#redditrnwsl"] {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    vertical-align: text-bottom;
+    content: "";
+    background: url(%%reign40%%) no-repeat 0 0;
+    }
+a[href="http://washingtonspirit.com/#redditrnwsl"] {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    vertical-align: text-bottom;
+    content: "";
+    background: url(%%spirit40%%) no-repeat 0 0;
+    }
+a[href="http://www.wnyflash.com/#redditrnwsl"] {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    vertical-align: text-bottom;
+    content: "";
+    background: url(%%flash40%%) no-repeat 0 0;
+    }
+a[href="http://www.houstondynamo.com/houstondash/#redditrnwsl"] {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    vertical-align: text-bottom;
+    content: "";
+    background: url(%%dash40%%) no-repeat 0 0;
+    }
+
+/*Main Section*/
+
+#siteTable {
+    padding: 25px 10px 0px 10px
+    }
+#siteTable .thing ul {
+    font: normal 140% Calibri, Verdana, Arial, sans-serif;
+    color: #192C57
+    }
+.comments {
+    color: #192C57 !important
+    }
+.share-button a {
+    color: #888888 !important
+    }
+.save-button span a, .unsave-button span a {
+    color: #192C57 !important
+    }
+.hide-button span a {
+    color: #888888 !important
+    }
+.report-button span a {
+    color: #192C57 !important
+    }
+.spam-button span a {
+    color: #888888 !important
+    }
+/*Submission Thumbnails*/
+.thumbnail.default, .thumbnail.self {
+    background: url(%%nwsl-49px-color%%) no-repeat center center
+    }
+/*Comments Page*/
+.commentarea a {
+    color: #192C57 !important
+    }
+
+/*Arrows*/
+.link .score, .link .score.likes, .link .score.dislikes {
+    color: #192C57
+    }
+.arrow.upmod, .arrow.up, .arrow.down, .arrow.downmod {
+    background-position: 0 0
+    }
+.arrow.upmod {
+    background-image: url(%%icons%%);
+    background-position: 0 -510px;
+    }
+.arrow.up {
+    background-image: url(%%icons%%);
+    background-position: 0 0;
+    }
+.arrow.down {
+    background-image: url(%%icons%%);
+    background-position: 0 0;
+    }
+.arrow.downmod {
+    background-image: url(%%icons%%);
+    background-position: 0 -476px;
+    }
+
+/*Flair*/
+
+.flair {
+    color: #192C57;
+    background-color: ghostWhite !important;
+    border: 1px solid #192C57
+    }
+.flair:before {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    padding-right: 2px;
+    vertical-align: text-bottom;
+    content: ""
+    }
+.flair-skyblue:before {
+    background: url(%%skyblue%%) no-repeat 0 0
+    }
+.flair-thorns:before {
+    background: url(%%thorns%%) no-repeat 0 0
+    }
+.flair-breakers:before {
+    background: url(%%breakers%%) no-repeat 0 0
+    }
+.flair-flash:before {
+    background: url(%%flash%%) no-repeat 0 0
+    }
+.flair-fckc:before {
+    background: url(%%fckc%%) no-repeat 0 0
+    }
+.flair-spirit:before {
+    background: url(%%spirit%%) no-repeat 0 0
+    }
+.flair-redstars:before {
+    background: url(%%redstars%%) no-repeat 0 0
+    }
+.flair-reign:before {
+    background: url(%%reign%%) no-repeat 0 0
+    }
+.flair-dash:before {
+    background: url(%%dash%%) no-repeat 0 0
+    }
+.flair-nwsl:before {
+    background: url(%%nwsl%%) no-repeat 0 0
+    }
+/*Trophy added to flair of champions*/
+.flair-fckc:after {
+    background: url(%%thorns2%%) no-repeat 0 0;
+    display: inline-block;
+    width: 23px;
+    height: 25px;
+    padding-right: 2px;
+    vertical-align: text-bottom;
+    content: ""
+    }
+
+/*Icons*/
+    #siteTable a[href^="//#"] {
+     display: inline-block;
+     width: 16px;
+     height: 16px;
+     line-height: normal;
+     background-repeat: no-repeat;
+     background-image: url(%%icons%%);
+     vertical-align: middle;
+     padding: 0;
+     border-width: 0;
+     background-color: transparent;
+     cursor: default;
+    }
+    #siteTable  a[href^="//#"][href$="-big"] {
+     width: 24px;
+     height: 24px;
+     line-height: 24px;
+     background-image: url(%%icons-large%%);
+    }
+    #siteTable .comment a[href^="//#"] {
+     display: none!important;
+    }
+
+    a[href^="//#"]{background-position: -999px -999px}
+    a[href^="//#ball"]{background-position:0 0}
+    a[href^="//#clock"]{background-position:0 -34px}
+    a[href^="//#down"]{background-position:0 -68px}
+    a[href^="//#flag"]{background-position:0 -102px}
+    a[href^="//#info"]{background-position:0 -136px}
+    a[href^="//#net"]{background-position:0 -170px}
+    a[href^="//#news"]{background-position:0 -204px}
+    a[href^="//#notes"]{background-position:0 -238px}
+    a[href^="//#red"]{background-position:0 -272px}
+    a[href^="//#stream"]{background-position:0 -306px}
+    a[href^="//#sub"]{background-position:0 -340px}
+    a[href^="//#up"]{background-position:0 -374px}
+    a[href^="//#whistle"]{background-position:0 -408px}
+    a[href^="//#yellow"]{background-position:0 -442px}
+    a[href^="//#ballr"]{background-position:0 -476px}
+    a[href^="//#ballg"]{background-position:0 -510px}
+
+/*Match Threads*/
+
+#siteTable a.title[href*="/pre_match_thread"],
+#siteTable a.title[href*="/prematch_thread"],
+#siteTable a.title[href*="/match_thread"],
+#siteTable a.title[href*="/matchthread"],
+#siteTable a.title[href*="/post_match_thread"],
+#siteTable a.title[href*="/postmatch_thread"],
+#siteTable a.title[href*="/match_report"],
+#siteTable a.title[href*="/league_roundup"],
+#siteTable a.title[href*="/league_round_up"] {
+ line-height: 26px;
+ color: green;
+}
+#siteTable a.title[href*="/pre_match_thread"]:before,
+#siteTable a.title[href*="/prematch_thread"]:before,
+#siteTable a.title[href*="/match_thread"]:before,
+#siteTable a.title[href*="/matchthread"]:before,
+#siteTable a.title[href*="/post_match_thread"]:before,
+#siteTable a.title[href*="/postmatch_thread"]:before,
+#siteTable a.title[href*="/match_report"]:before,
+#siteTable a.title[href*="/league_roundup"]:before,
+#siteTable a.title[href*="/league_round_up"]:before {
+ content: "";
+ display: inline-block;
+ width: 24px;
+ height: 24px;
+ margin-right: 3px;
+ background-image: url(%%icons-large%%);
+ background-position: 0 -204px;
+ background-repeat: no-repeat;
+ vertical-align: bottom;
+}
+#siteTable a.title[href*="/match_thread"]:before,
+#siteTable a.title[href*="/matchthread"]:before {
+ background-position: 0 0;
+}
+#siteTable a.title[href*="/pre_match_thread"]:before,
+#siteTable a.title[href*="/prematch_thread"]:before {
+ background-position: 0 -34px;
+}
+#siteTable a.title[href*="/post_match_thread"]:before,
+#siteTable a.title[href*="/postmatch_thread"]:before {
+ background-position: 0 -408px;
+}
+
+/*Video icon*/
+    .md a[href*="youtube.com/watch"],
+    .md a[href*="espn.go.com/watchespn/index/_/id/"],
+    .md a[href*="youtu.be/"],
+    .md a[href*="vimeo.com/"],
+    .md a[href*="twitvid.com/"],
+    .md a[href*="/video/"],
+    .md a[href*="/gvideos/"] {
+     background-image: url(%%video%%);
+     background-repeat: no-repeat;
+     background-position: left center;
+     padding-left: 20px;
+    }
+
+/*Spoiler Tags - Use like: [this text here](/sp)*/
+
+a[href$="/sp"]{
+    background: #000 !important;
+    color: #000 !important;
+    cursor: text;
+    display: inline-block;
+    }
+a[href$="/sp"]:hover{
+    text-decoration: none !important;
+    color: #FFF !important;
+    }
